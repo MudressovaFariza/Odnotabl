@@ -1,0 +1,4 @@
+Select s.name, s.surname, s.score
+from students s
+where score >=4
+order by score desc fetch first 5 rows only
